@@ -13,7 +13,7 @@ fun percentageLetterA(listLetter :List<String> ) : Any {
     var count :Int =  listLetter.count { it == "a" }
     val dFormat = DecimalFormat("#.#")
     val result : Double = (( count.toDouble() /3) *100)
-    return dFormat.format(result)
+    return dFormat.format(result).toDouble()
 }
 
 fun checkValidationListContains(list :List<String>) :Boolean {
