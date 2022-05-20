@@ -1,0 +1,1 @@
+/home/os/IdeaProjects/KotlinTesting/build/classes/kotlin/main/MainKt.class
