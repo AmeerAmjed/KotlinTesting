@@ -1,3 +1,4 @@
+
 import java.text.DecimalFormat
 
 fun main(){
@@ -12,7 +13,7 @@ fun percentageLetterA(listLetter :List<String> ) : Any {
     }
     var count :Int =  listLetter.count { it == "a" }
     val dFormat = DecimalFormat("#.#")
-    val result : Double = (( count.toDouble() /3) *100)
+    val result : Double = (( count.toDouble() /listLetter.size) *100)
     return dFormat.format(result).toDouble()
 }
 
@@ -23,6 +24,3 @@ fun checkValidationListContains(list :List<String>) :Boolean {
     }
     return true
 }
-
-
-
