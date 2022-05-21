@@ -3,7 +3,11 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.*
 
 internal class MainKtTest {
-
+    /*
+    Test Function calculate percentage Letter A
+    with
+    Execution result
+    */
     @Test
     fun should_ReturnRercentageLetterA_When_ListHaveLetterA_Test1() {
 
