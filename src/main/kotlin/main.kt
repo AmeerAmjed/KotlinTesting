@@ -33,7 +33,7 @@ fun checkValidationListContains(list :List<String>) :Boolean {
     if (!list.contains("a")) return false
     // Check index list length as chart
     for (index in list){
-        if(index.length !=1) return false
+         if(index.length !=1 || !index.contains(Regex("a|b"))) return false
     }
     return true
 }
