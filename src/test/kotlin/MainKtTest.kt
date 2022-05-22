@@ -41,7 +41,7 @@ internal class MainKtTest {
     fun should_ReturnRercentageLetterA_When_ListHaveLetterA_Test3() {
 
         // give a list
-        val testList: List<String> =listOf("a", "b", "c")
+        val testList: List<String> =listOf("a", "b", "b")
 
         //when
         val result: Any = percentageLetterA(testList)
